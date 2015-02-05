@@ -17,7 +17,7 @@ can be set to alter the behavior of the system.
 If you process a lot of events and have many cores, changing the value of `hazelcast.event.thread.count` property to
 a higher value is a good idea. This way, more events can be processed in parallel.
 
-Multiple components share the same event queues. If there are 2 topics, say A and B, for certain messages
+Multiple componentasdss share the same event queues. If there are 2 topics, say A and B, for certain messages
 they may share the same queue(s) and hence the same event thread. If there are a lot of pending messages produced by A, then B needs to wait.
 Also, when processing a message from A takes a lot of time and the event thread is used for that, B will suffer from this. 
 That is why it is better to offload processing to a dedicated thread (pool) so that systems are better isolated.
