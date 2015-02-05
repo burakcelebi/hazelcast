@@ -7,10 +7,9 @@
 ### New Features
 This section provides the new features introduced with Hazelcast 3.5 release. 
 
-- **???**: ???. For more information, please see ... [???](#???).
+- **???**: ???. For more information, please see [???](#???).
 
 
 
 
 
-asdasdsa

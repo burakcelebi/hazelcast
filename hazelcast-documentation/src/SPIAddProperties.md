@@ -9,7 +9,7 @@ The `init` method for `CounterService` takes the `Properties` object as an argum
 <service enabled="true">
    <name>CounterService</name>
    <class-name>CounterService</class-name>
-   <properasdasties>
+   <properties> 
       <someproperty>10</someproperty>
    </properties>
 </service>
