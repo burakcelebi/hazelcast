@@ -52,6 +52,7 @@ public class TcpIpJoiner extends AbstractJoiner {
     private static final long JOIN_RETRY_WAIT_TIME = 1000L;
     private static final int LOOK_FOR_MASTER_MAX_TRY_COUNT = 20;
 
+
     private final int maxPortTryCount;
     private volatile boolean claimingMaster;
 
