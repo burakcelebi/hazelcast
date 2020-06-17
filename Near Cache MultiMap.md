@@ -1,7 +1,7 @@
-# PRD: Near Cache MultiMap
+# Spec for SQL Type System
 
 ## Goals
-Provide Near Cache for MultiMap.
+...
 
 ## Background and Strategic Fit
 ...
